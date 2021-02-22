@@ -1,96 +1,117 @@
-*{
-    font-family: 'Righteous', cursive;}
+    *{
+        font-family: 'Righteous', cursive;}
 
+        
+    body {
+        margin: 0px;
+    }
+
+    :root {
+        --main-color: #1566C0;
+    }
+
+    .main-color {
+
+        color: var(--main-color);
+    } 
+
+
+    .shadow-custom {
+        box-shadow: 1px 1px 10px black;
+        border-radius: 5px;
+    }
+    /* header  */
+
+    header{
+    height: 100vh; 
+    background: url(./media/wave2.svg) , url(./media/wave1.svg) ,linear-gradient(black,transparent ), url(./media/header.jpg);
+    background-repeat: no-repeat;
     
-body {
-    margin: 0px;
-}
+    background-position: bottom, 50% 95% , center;
+    }
 
-:root {
-    --main-color: #1566C0;
-}
-
-.main-color {
-
-    color: var(--main-color);
-} 
-
-/* header  */
-
-header{
-  height: 100vh; 
-  background: url(./media/wave2.svg) , url(./media/wave1.svg) ,linear-gradient(black,transparent ), url(./media/header.jpg);
-  background-repeat: no-repeat;
-  
-  background-position: bottom, 50% 95% , center;
-}
-
-
-.cards {
-
-height: 350px;
-width: 100%;
-background-image:linear-gradient(black,transparent ), url(./media/1.png);
-background-position: center;
-background-size: cover;
-
-}
-
-.title {
-    border-bottom: 2px solid yellow;
-   width: 90%;
-   height: 50%;
-   display: flex;
-   align-items: flex-start;
-   flex-direction: column;
-   justify-content: flex-end;
-   margin-top: 60px ;
-}
-
-.contenuto {
-    height: 50%;
-    display: flex;
-align-items: flex-end;
-justify-content: center;
-padding: 5px;
-padding-left:10px;
-line-height: 90%;
-margin-top:40px;
-}
-
-
-.card-1{
-   
+    /* sezione 2  */
+    .cards {
 
     height: 350px;
     width: 100%;
-        background-image:linear-gradient(black,transparent ), url(./media/2.png);
+    background-image:linear-gradient(black,transparent ), url(./media/1.png);
+    background-position: center;
+    background-size: cover;
+
+    }
+
+    .title {
+        border-bottom: 2px solid yellow;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 60px ;
+    }
+
+    .contenuto {
+        height: 50%;
+        display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 5px;
+    padding-left:10px;
+    line-height: 90%;
+    margin-top:40px;
+    }
+
+
+    .card-1{
+    
+
+        height: 350px;
+        width: 100%;
+            background-image:linear-gradient(black,transparent ), url(./media/2.png);
+            background-position: center;
+            background-size: cover;
+            
+            
+    }
+
+    .card-2{
+    
+
+        height: 350px;
+        width: 100%;
+        background-image:linear-gradient(black,transparent ), url(./media/3.png);
         background-position: center;
         background-size: cover;
         
         
-}
+    }
 
-.card-2{
-   
+    .card-3{
+    
 
-    height: 350px;
-    width: 100%;
-    background-image:linear-gradient(black,transparent ), url(./media/3.png);
-    background-position: center;
-    background-size: cover;
-    
-    
-}
+        height: 350px;
+        width: 100%;
+        background-image:linear-gradient(black,transparent ), url(./media/4.png);
+        background-position: center;
+        background-size: cover;
+        
+        
+    }
 
-.card-3{
-   
 
-    height: 350px;
-    width: 100%;
-    background-image:linear-gradient(black,transparent ), url(./media/4.png);
-    background-position: center;
-    background-size: cover;
-    
-    
-}
+        /* sezione 3  */
+
+
+        .little-boxe {
+        border: 1px solid black;
+        background-color: white ;
+        height: 80px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px black;
+        }
