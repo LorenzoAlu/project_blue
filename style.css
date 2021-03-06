@@ -4,6 +4,7 @@
         
     body {
         margin: 0px;
+        padding:0px;
     }
 
     :root {
@@ -17,8 +18,8 @@
 
 
     .shadow-custom {
-        box-shadow: 1px 1px 10px black;
-        border-radius: 5px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+        border-radius: 10px;
     }
     /* header  */
 
@@ -105,13 +106,12 @@
 
 
         .little-boxe {
-        border: 1px solid black;
         background-color: white ;
         height: 80px;
         width: 80px;
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 5px;
-        box-shadow: 1px 1px 10px black;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
         }
