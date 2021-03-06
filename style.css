@@ -141,4 +141,17 @@
             left:488px;
             top:0;
         }
+
+
+        /* footeer  */
+
+        footer{
+            height: 100vh; 
+            background:linear-gradient(white,transparent,black ), url(./media/footer.jpg);
+            background-repeat: no-repeat;
+            
+            background-position: bottom, 50% 95% , center;
+            }
+        }
+        
    
